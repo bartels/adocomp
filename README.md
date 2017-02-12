@@ -10,13 +10,19 @@ View the [demo page](https://cdn.rawgit.com/bartels/adocomp/master/demo/).
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<title>ADOComp demo</title>
+<title>ADOComp Demo</title>
 <style>
 body {
     margin: 0;
     padding: 0;
     user-select: none;
+    overflow-x: hidden;
     background: black;
+}
+
+/* example styling container div */
+#ADOComp {
+    /* width: 1920px; */
 }
 </style>
 </head>
