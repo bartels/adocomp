@@ -14,7 +14,7 @@ module.exports = {
 
   output: {
     path: path.resolve('./dist'),
-    filename: 'adocomp.js',
+    filename: env === 'production' ? 'adocomp.min.js' : 'adocomp.js',
   },
 
   resolve: {

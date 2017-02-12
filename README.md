@@ -21,7 +21,7 @@ body {
 </style>
 </head>
 <body>
-<script src="https://cdn.rawgit.com/bartels/adocomp/master/dist/adocomp.js" type="text/javascript"></script>
+<script src="https://cdn.rawgit.com/bartels/adocomp/master/dist/adocomp.min.js" type="text/javascript"></script>
 <script>
   // pass in list of image urls
   ADOComp([
