@@ -9,7 +9,7 @@ View the [demo page](https://cdn.rawgit.com/bartels/adocomp/master/demo/).
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta charset="utf-8" />
 <title>ADOComp Demo</title>
 <style>
 body {
