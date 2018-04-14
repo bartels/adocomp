@@ -16,6 +16,8 @@ body {
     margin: 0;
     padding: 0;
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
     overflow-x: hidden;
     background: black;
 }
