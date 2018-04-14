@@ -15,10 +15,6 @@ View the [demo page](https://cdn.rawgit.com/bartels/adocomp/master/demo/).
 body {
     margin: 0;
     padding: 0;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    overflow-x: hidden;
     background: black;
 }
 

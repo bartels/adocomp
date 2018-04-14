@@ -29,6 +29,12 @@ export class ADOComp {
   addContainerEl() {
     var el = this.el = document.createElement('div')
     el.id = 'ADOComp'
+    style(document.body, {
+      'overflow-x': 'hidden',
+      'user-select': 'none',
+      '-webkit-user-select': 'none',
+      '-moz-user-select': 'none',
+    })
     style(el, {
       display: 'block',
       position: 'relative',
