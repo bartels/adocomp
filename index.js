@@ -62,14 +62,10 @@ export class ADOComp {
     }
 
     switch (e.which) {
-      case 34:
-      case 40:
-      case 39:
+      case 39: // right
         this.showNextImage()
         break
-      case 33:
-      case 38:
-      case 37:
+      case 37: // left
         this.showPrevImage()
         break
       default:
