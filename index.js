@@ -97,6 +97,9 @@ export class ADOComp {
     this.img.src = nextUrl
     this.updateHash()
 
+    // scroll page to top
+    window.scrollTo(0, 0)
+
     // pre-cache images
     setTimeout(() => {
       this.cacheImage(this.index + 1)
